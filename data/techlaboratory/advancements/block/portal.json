@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"ignition": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:redstone_block"
+			}
+		}
+	},
+	"rewards": {
+		"function": "techlaboratory:portal/portal_place"
+	}
+}

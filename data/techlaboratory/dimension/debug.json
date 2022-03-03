@@ -1,0 +1,18 @@
+{
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "structures": {
+        "structures": {}
+      },
+      "layers": [
+        {
+          "block": "minecraft:iron_block",
+          "height": 3
+        }
+      ],
+      "biome": "minecraft:the_void"
+    }
+  },
+  "type": "techlaboratory:debug"
+}
