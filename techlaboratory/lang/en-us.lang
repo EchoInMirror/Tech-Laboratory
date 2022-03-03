@@ -1,0 +1,26 @@
+
+root.staff=Techlaboratory by ILusMin&Tryank
+
+advancements.in_portal.title=Welcome, doctor.
+advancements.in_portal.description=Enter the lab
+
+advancements.root.title=Necessity of keeping rule.
+advancements.root.description=If you see this advancement, you may do something wrong.
+
+advancements.not_a_good_player.title=Unexpected player
+advancements.not_a_good_player.description=Why are you here.....  You shouldn't be here, and this advancement is not a bouns but a warning
+
+advancements.emmm.title=Emmm...
+advancements.emmm.description=We don't doubt your spirit of exploration, but what you do may cause error on this datapack
+
+advancements.at_last.title=The last.
+advancements.at_last.description=Please restart the datapack if you caused any fatal errors by yourself... And we don't response for your behavior lol
+
+advancements.hacker.title=Hacker
+advancements.hacker.description=This is also a warning... If you get back to the lab-dimension by portal right now, your stuff will LITERALLY disappear.
+
+tooltip.drop_back=Take care not to let yourself fall sir.
+
+tooltip.hacker_back.hint1=You have been leave lab-dimension by an abnormal way, but it is recoverable. 
+tooltip.hacker_back.hint2=CLICK HERE
+tooltip.hacker_back.hint3=Back to lab-dimension
