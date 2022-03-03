@@ -1,3 +1,0 @@
-tag @s[tag=!not.in.debug] add not.in.debug
-tellraw @s {"text":"你使用了异常的方式离开实验维度，但这并非无法补救：","color": "dark_aqua"}
-tellraw @s {"text":"点击这里","clickEvent":{"action":"run_command","value":"/execute as @s[predicate=!techlaboratory:in_debug,tag=not.in.debug] run function techlaboratory:advancements/hacker_back2"},"color": "dark_aqua","bold": true,"italic": true,"hoverEvent": {"action": "show_text","value": {"text": "回到实验维度"}}}

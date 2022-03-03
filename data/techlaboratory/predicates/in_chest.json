@@ -1,6 +1,0 @@
-{
-    "condition": "minecraft:location_check",
-    "predicate":{
-      "dimension": "techlaboratory:item_chest"
-    }
-  }
