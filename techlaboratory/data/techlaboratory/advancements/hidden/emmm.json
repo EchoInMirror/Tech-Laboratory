@@ -10,8 +10,8 @@
 		"icon": {
 			"item": "minecraft:air"
 		},
-		"title": "嗯...",
-		"description": "我们并不质疑你作为一个mc玩家的探索欲，但你的行为很可能导致这个数据包的失常",
+		"title": "advancements.emmm.title",
+		"description": "advancements.emmm.description",
         "hidden": true
 	},
 	"parent": "techlaboratory:hidden/root"

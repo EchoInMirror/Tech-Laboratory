@@ -10,8 +10,8 @@
 		"icon": {
 			"item": "minecraft:air"
 		},
-		"title": "最后",
-		"description": "若由于你的行为导致数据包失常，请自行重启数据包，物品丢失我们并不会为此负责",
+		"title": "advancements.at_last.title",
+		"description": "advancements.at_last.description",
         "hidden": true
 	},
 	"parent": "techlaboratory:hidden/root"

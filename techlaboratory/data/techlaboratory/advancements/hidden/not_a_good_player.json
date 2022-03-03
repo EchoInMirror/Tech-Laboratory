@@ -10,8 +10,8 @@
 		"icon": {
 			"item": "minecraft:air"
 		},
-		"title": "不速之玩家",
-		"description": "你怎么在……你不该出现在这里，这不是一个奖励，而是警告",
+		"title": "advancements.not_a_good_player.title",
+		"description": "advancements.not_a_good_player.description",
         "hidden": true
 	},
 	"parent": "techlaboratory:hidden/root"

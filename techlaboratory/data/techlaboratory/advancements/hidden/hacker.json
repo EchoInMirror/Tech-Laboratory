@@ -10,8 +10,8 @@
 		"icon": {
 			"item": "minecraft:air"
 		},
-		"title": "黑客小子",
-		"description": "这也是一条警告...当你再次回去实验维度的时候，你的储存物品将会真正意义上从世界上消失",
+		"title": "advancements.hacker.title",
+		"description": "advancements.hacker.description",
         "hidden": true
 	},
 	"parent": "techlaboratory:hidden/root"

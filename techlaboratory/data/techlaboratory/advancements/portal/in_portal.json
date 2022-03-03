@@ -10,8 +10,8 @@
 		"icon": {
 			"item": "minecraft:redstone"
 		},
-		"title": "中科院大佬！",
-		"description": "进入科技实验室"
+		"title": "advancements.in_portal.title",
+		"description": "advancements.in_portal.description"
 	},
 	"parent": "minecraft:story/root"
 }
