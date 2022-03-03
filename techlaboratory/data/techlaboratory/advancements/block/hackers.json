@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"ignition": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "techlaboratory:advancements/hacker_back"
+	}
+}

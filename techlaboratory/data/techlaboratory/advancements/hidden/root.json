@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"ignition": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+	},
+	"display": {
+		"icon": {
+			"item": "minecraft:bedrock"
+		},
+		"title": "偶尔，也需要遵守规则",
+		"description": "如果你看到这个，那么你或许做错了什么",
+        "hidden": true
+	}
+}
