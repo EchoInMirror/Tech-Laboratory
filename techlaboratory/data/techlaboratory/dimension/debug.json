@@ -5,13 +5,14 @@
       "structures": {
         "structures": {}
       },
+      "biome": "minecraft:the_void",
       "layers": [
         {
           "block": "minecraft:iron_block",
           "height": 3
         }
       ],
-      "biome": "minecraft:the_void"
+      "structure_overrides": []
     }
   },
   "type": "techlaboratory:debug"

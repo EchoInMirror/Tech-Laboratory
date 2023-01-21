@@ -5,13 +5,14 @@
       "structures": {
         "structures": {}
       },
+      "biome": "minecraft:the_void",
       "layers": [
         {
           "block": "minecraft:air",
           "height": 256
         }
       ],
-      "biome": "minecraft:the_void"
+      "structure_overrides": []
     }
   },
   "type": "techlaboratory:item_chest"
