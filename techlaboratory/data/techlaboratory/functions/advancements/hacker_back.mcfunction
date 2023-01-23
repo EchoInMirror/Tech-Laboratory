@@ -1,3 +1,3 @@
-tag @s[tag=!not.in.debug] add not.in.debug
+tag @s[tag=!TechLab.not.in.debug] add TechLab.not.in.debug
 tellraw @s {"text":"tooltip.hacker_back.hint1","color": "dark_aqua"}
-tellraw @s {"text":"tooltip.hacker_back.hint2","clickEvent":{"action":"run_command","value":"/execute as @s[predicate=!techlaboratory:in_debug,tag=not.in.debug] run function techlaboratory:advancements/hacker_back2"},"color": "dark_aqua","bold": true,"italic": true,"hoverEvent": {"action": "show_text","value": {"text": "tooltip.hacker_back.hint3"}}}
+tellraw @s {"text":"tooltip.hacker_back.hint2","clickEvent":{"action":"run_command","value":"/execute as @s[predicate=!techlaboratory:in_debug,tag=TechLab.not.in.debug] run function techlaboratory:advancements/hacker_back2"},"color": "dark_aqua","bold": true,"italic": true,"hoverEvent": {"action": "show_text","value": {"text": "tooltip.hacker_back.hint3"}}}

@@ -27,6 +27,6 @@ setblock 0 3 0 end_gateway
 setblock 0 4 0 end_gateway
 
 
-kill @e[tag=Debug.mark]
+kill @e[tag=TechLab.Debug.mark]
 
-summon marker 0 3 0 {Invulnerable:1b,Tags:["portal","Debug.mark"]}
+summon marker 0 3 0 {Invulnerable:1b,Tags:["TechLab.portal","TechLab.Debug.mark"]}

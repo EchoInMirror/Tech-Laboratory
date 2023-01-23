@@ -1,0 +1,1 @@
+function techlaboratory:resetfunc/check
