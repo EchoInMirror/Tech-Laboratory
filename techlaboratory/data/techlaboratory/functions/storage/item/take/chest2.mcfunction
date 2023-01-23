@@ -31,4 +31,4 @@ item replace entity @a[tag=TechLab.Selected,limit=1] inventory.26 from entity @s
 #tell @a "传送回程已激活2"
 gamemode survival @a[tag=TechLab.Selected]
 
-scoreboard players set @a[tag=TechLab.Selected] Select 0
+tag @a remove Selected

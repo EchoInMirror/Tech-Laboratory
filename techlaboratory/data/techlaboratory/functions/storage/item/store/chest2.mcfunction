@@ -32,4 +32,4 @@ item replace entity @s container.26 from entity @a[tag=TechLab.Selected,limit=1]
 clear @a[tag=TechLab.Selected]
 gamemode creative @a[tag=TechLab.Selected]
 
-scoreboard players set @a[tag=TechLab.Selected] Select 0
+tag @a remove Selected
