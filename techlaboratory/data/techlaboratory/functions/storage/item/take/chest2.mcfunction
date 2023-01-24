@@ -1,4 +1,5 @@
 #tell @a "传送回程已激活1"
+#tellraw @a {"name":"@s","text":"item/take/chest2"}
 
 item replace entity @a[tag=TechLab.Selected,limit=1] inventory.0 from entity @s container.0
 item replace entity @a[tag=TechLab.Selected,limit=1] inventory.1 from entity @s container.1
@@ -29,6 +30,5 @@ item replace entity @a[tag=TechLab.Selected,limit=1] inventory.25 from entity @s
 item replace entity @a[tag=TechLab.Selected,limit=1] inventory.26 from entity @s container.26
 
 #tell @a "传送回程已激活2"
-gamemode survival @a[tag=TechLab.Selected]
 
-tag @a remove Selected
+#tellraw @a {"text":"item/take/chest2 done"}

@@ -1,3 +1,5 @@
+#tellraw @a {"name":"@s","text":"item/take/chest1"}
+
 item replace entity @a[tag=TechLab.Selected,limit=1] container.0 from entity @s container.0
 item replace entity @a[tag=TechLab.Selected,limit=1] container.1 from entity @s container.1
 item replace entity @a[tag=TechLab.Selected,limit=1] container.2 from entity @s container.2
@@ -12,3 +14,5 @@ item replace entity @a[tag=TechLab.Selected,limit=1] armor.feet from entity @s c
 item replace entity @a[tag=TechLab.Selected,limit=1] armor.head from entity @s container.11
 item replace entity @a[tag=TechLab.Selected,limit=1] armor.legs from entity @s container.12
 item replace entity @a[tag=TechLab.Selected,limit=1] weapon.offhand from entity @s container.13
+
+#tellraw @a {"text":"item/take/chest1 done"}

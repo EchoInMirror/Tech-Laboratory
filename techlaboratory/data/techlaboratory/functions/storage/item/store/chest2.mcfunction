@@ -1,5 +1,7 @@
 #tell @a "传送已激活1"
 
+#tellraw @a {"name":"@s","text":"item/store/chest2"}
+
 item replace entity @s container.0 from entity @a[tag=TechLab.Selected,limit=1] inventory.0
 item replace entity @s container.1 from entity @a[tag=TechLab.Selected,limit=1] inventory.1
 item replace entity @s container.2 from entity @a[tag=TechLab.Selected,limit=1] inventory.2
@@ -30,6 +32,5 @@ item replace entity @s container.26 from entity @a[tag=TechLab.Selected,limit=1]
 
 #tell @a "传送已激活2"
 clear @a[tag=TechLab.Selected]
-gamemode creative @a[tag=TechLab.Selected]
 
-tag @a remove Selected
+#tellraw @a {"text":"item/store/chest2 done"}

@@ -1,3 +1,5 @@
+#tellraw @a {"name":"@s","text":"repeat/chest_link"}
+
 execute store result score @s Chest run scoreboard players get TechLaboratoryNeedAEmptyUsernamePleaseDontNameYourselfThisName Chest
 
 execute in techlaboratory:item_chest run summon minecraft:chest_minecart -1 128 -1 {Motion:[0.0d,-9.99d,0.0d],Tags:["TechLab.Debug.Chest","TechLab.Tower.Chest1"]}
